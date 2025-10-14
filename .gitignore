@@ -1,1 +1,35 @@
-node_modules/
+# Node modules
+/node_modules
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+/dist
+/build
+/public/build
+/out
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.bak
+*~.nib
+.DS_Store
+
+# Test reports
+/coverage
+/test-results
+
+# npm package manager files
+package-lock.json
+npm-shrinkwrap.json
+
+# Other temporary files
+tmp/
+temp/
