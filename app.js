@@ -22,8 +22,8 @@ app.use("/contacts", contactsRoute);
 app.use("/qualifications", educationsRoute);
 app.use("/projects", projectsRoute);
 app.use("/users", usersRoute);
-app.get("/", (req,res)=>{
-    res.json({"Message":"Welcome to my portfolio application"});
+app.use("/", (req,res)=>{
+    res.send("Welcome to my portfolio application");
 });
 
 
